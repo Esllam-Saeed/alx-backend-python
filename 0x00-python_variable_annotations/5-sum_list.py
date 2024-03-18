@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-'''Task 5's module.
+''' Description: accepts a list input_list of floats as argument and
+    returns their sum as a float.
+    Arguments: input_list: List[float]
 '''
+
 from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    '''Computes the sum of a list of floating-point numbers.
-    '''
-    return float(sum(input_list))
-
+    '''Outputs sum of all elements in input_list. '''
+    return sum(input_list)
